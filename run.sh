@@ -20,3 +20,7 @@ git clone https://github.com/graknlabs/behaviour.git > /dev/null 2>&1
 cd behaviour 
 ls
 
+# ToDO
+# starting up grakn server, ideally not interrupting this script
+# then including another running a julia script that installs ExecutableSpecifications.jl
+# and uses the feature files in behaviour to run the tests with GraknClient.jl against the server
