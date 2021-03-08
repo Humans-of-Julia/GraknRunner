@@ -17,5 +17,5 @@ runs:
     - id: random-number-generator
       run: echo "::set-output name=random-id::$(echo $RANDOM)"
       shell: bash
-    - run: https://github.com/Humans-of-Julia/GraknRunner/blob/main/run.sh
+    - run: ${{ github.action_path }}/run.sh
       shell: bash
